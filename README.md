@@ -89,7 +89,7 @@
 
 
 ```
-git clone https://github.com/Cybersnake223/Hypr
+git clone git@github.com:enzolazz/Hypr-rice.git ~/Hyper-rice
 ```
 
 ```
@@ -97,37 +97,5 @@ cd Hypr
 ```
 
 ```
-cp -r .config/* $HOME/.config
+./post-install.sh
 ```
-
-```
-cp -r .local/bin/scripts $HOME/.local/bin
-```
-
-```
-cp -r .icons $HOME/.icons
-```
-
-```
-cp -r .themes $HOME/.themes
-```
-
-```
-cp -r .fonts $HOME/.fonts
-```
-Then Rebuild Font Cache with
-
-```
-fc-cache -f
-```
-
-> [!NOTE]
-> This setup is more focused on laptops rather than desktops soo i'm keeping it super simple but yeahh you can also use it with desktops.    
-
-> [!IMPORTANT]
-> _This Repo also contains my custom scripts that i use with this setup for Misc things like downloading videos and audios from different platforms, switching wallpaper in hyprland with keyboard shortcuts._  
-> _Make sure to copy the scripts folder in `$HOME/.local/bin` and also add it to your PATH variable otherwise the setup won't work as intended._
-
-
-# LICENSE  
-This Project is licensed under MIT License - see LICENSE for more details.   
